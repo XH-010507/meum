@@ -1,0 +1,24 @@
+<!--pages/home/home.wxml-->
+<view class="container">
+  <view class="header">
+    <view class="app-name">{{appName}}</view>
+    <view class="subtitle">告诉本大厨，让本大厨来做！</view>
+  </view>
+
+  <view class="content">
+    <view class="button-group">
+      <button class="order-btn" bindtap="startOrdering">
+        <view class="btn-text">我要点菜！</view>
+      </button>
+
+      <button class="admin-btn" bindtap="goToAdmin">
+        <view class="btn-text">大厨专属按钮</view>
+      </button>
+    </view>
+  </view>
+
+  <button bindtap="myOrders">我的点菜记录</button><button size="mini" bindtap="identity">查看本人身份码</button>
+  <view class="footer">
+    <text class="tip">家人一起点菜 · 无支付</text>
+  </view>
+</view>

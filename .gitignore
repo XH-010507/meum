@@ -1,0 +1,39 @@
+# 微信开发者工具
+.DS_Store
+node_modules/
+miniprogram_npm/
+
+# 项目私有配置
+project.private.config.json
+
+# 云函数
+cloudfunctions/**/node_modules/
+cloudfunctions/**/.DS_Store
+cloudfunctions/**/package-lock.json
+
+# 日志
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 编辑器
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 临时文件
+*.tmp
+.cache/
+
+# 本机身份和环境配置，永不提交
+project.config.json
+miniprogram/config/local.js
+.env
+.env.*
+!*.example
+*.pem
+*.key
+tests/fixtures/

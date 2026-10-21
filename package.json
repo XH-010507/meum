@@ -1,0 +1,10 @@
+{
+  "name": "meum-family-menu",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "setup": "node scripts/setup.js",
+    "sync-cloud": "node scripts/sync-cloud.js",
+    "test": "node tests/run.js"
+  }
+}
